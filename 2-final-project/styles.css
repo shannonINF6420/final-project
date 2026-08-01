@@ -1,0 +1,225 @@
+
+.container{
+    display: grid;
+    justify-content: center;
+    padding: 10px;
+    border: 1px solid red;
+}
+
+header{
+    display:flex;
+    flex-direction: column;
+    align-content: center;
+    border: 1px solid blue;
+    padding: 10px;
+    margin-bottom:30px;
+    width:100%;
+    height: auto;
+
+   
+}
+
+.banner{
+    
+    margin-bottom:3px;
+    background-image: url(assets/images/forest-rescaled.JPG);
+    
+}
+
+nav{    
+    border: 1px solid green;
+}
+
+ul{
+    display: grid;
+    justify-content: center;
+    list-style: none;    
+}
+
+main{
+    border: 1px solid blue;
+    padding: 10px;
+    margin-bottom:3px;
+    width:100%;
+    height: auto;
+}
+
+.main-container{
+    
+    border: 3px solid purple;
+    width: auto;
+    height: auto;
+    padding: 10px;
+    background-image: url(assets/images/forest-rescaled.JPG);
+}
+
+.content{
+    border: 1px solid green;
+    margin-left:10px;
+    margin-right:10px;
+    padding: 10px;
+    background-color: white;
+}
+
+.handheld{
+    display:grid;    
+    grid-template-columns: repeat(2, 1fr);    
+    justify-items: center;
+    width:100%;
+    height: auto;
+   
+}
+
+.handheld-exit{ 
+    border: 1px solid purple;
+    margin: 30px;
+    
+}
+
+.handheld-archives{
+    border: 1px solid purple;
+    margin:30px;
+}
+
+
+footer{
+    display:flex;
+    flex-direction: column;
+    align-content: center;
+    border: 1px solid blue;
+    padding: 10px;
+    margin-bottom:30px;
+    
+   
+}
+
+@media (min-width:300px){
+    ul{   
+    grid-template-columns:repeat(2,1fr);    
+    list-style: none;    
+    }
+
+    .handheld{
+        margin-bottom:30px;
+    }
+    .handheld-archives{
+        display:block;
+        border-radius:70%;
+        width:40%;
+        height:70%;
+        background-image: url(assets/images/cave-resized.jpg);
+        object-fit: contain;
+       box-shadow: 0px 0px 40px white;
+
+    }
+    .handheld-exit{
+        display: block;
+        border-radius:70%;
+        width:40%;
+        height:70%;
+        background-image: url(assets/images/path-deer-resized.PNG);
+        object-fit: contain;
+        box-shadow: 0px 0px 40px white;
+        
+    }
+
+
+    .left{
+        display:none;
+    }
+
+    .right{
+        display:none;
+    }
+    
+}
+
+@media (min-width:600px){
+    ul{
+        grid-template-columns:repeat(3,1fr);       
+    }
+
+    .main-container{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .handheld-archives{
+        display:none;
+    }
+    .handheld-exit{
+        display: none;
+    }
+
+    .left{
+    display:block;
+    border-radius:50%;
+    width:20%;
+    height:20%;
+    background-image: url(assets/images/path-deer-resized.PNG);
+    object-fit: contain;
+    object-position: top;
+
+    }
+    .left:hover{
+        box-shadow: 0px 0px 40px white;
+    }
+
+    .right{
+        display:block;
+        border-radius:50%;
+        width:20%;
+        height:20%;
+        background-image: url(assets/images/cave-resized.jpg);
+        object-fit: contain;
+        object-position: top;
+    }
+
+    .right:hover{
+        box-shadow: 0px 0px 40px white;
+    }
+    
+}
+
+@media (min-width:900px){
+    ul{
+        grid-template-columns:repeat(5,1fr);  
+    }
+    .main-container{
+        display: flex;
+        flex-direction: row;
+    }
+     .handheld-archives{
+        display:none;
+    }
+    .handheld-exit{
+        display: none;
+    }
+    .left{
+    border-radius:50%;
+    width:20%;
+    height:20%;
+    background-image: url(assets/images/path-deer-resized.PNG);
+    object-fit: contain;
+    object-position: top;
+
+}
+    .left:hover{
+        box-shadow: 0px 0px 40px white;
+    }
+
+    .right{
+        border-radius:50%;
+        width:20%;
+        height:20%;
+        background-image: url(assets/images/cave-resized.jpg);
+        object-fit: contain;
+        object-position: top;
+    }
+
+    .right:hover{
+        box-shadow: 0px 0px 40px white;
+    }
+
+    
+}

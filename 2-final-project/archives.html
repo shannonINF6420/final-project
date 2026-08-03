@@ -1,0 +1,325 @@
+<div class="video-container">
+            <a href="video-1.html"><div class="video-1">
+                <ul>
+                    <div class=picture><li><img src="assets/images/video-1-frame1.jpg" width="200px" heigh="175px" alt="grizzly bear"></li></div>
+                    <li><div><h3>Video</h3></div></li>
+                    <li><div class= "icon">
+                        <img src="assets/images/video-icon.svg" alt="video icon">
+                    </div>
+                    <div class="description"><p>Description will be placed here.</p></div>
+                    </li>
+                </ul>
+            </div>
+            </a>
+
+            <a href="video-2.html">
+            <div class="video-2">
+                <ul>
+                    <div class=picture><li><img src="assets/images/video-2-frame1.jpg" width="200px" heigh="175px" alt="horse"></li></div>
+                    <li><div><h3>Video</h3></div></li>
+                    <li><div class= "icon">
+                        <img src="assets/images/video-icon.svg" alt="video icon">
+                    </div>
+                    <div class="description"><p>Description will be placed here.</p></div>
+                    </li>
+                </ul>
+            </div>
+            </a>
+
+            <a href="video-3.html">
+            <div class="video-3">
+                <ul>
+                    <div class=picture><li><img src="assets/images/video-3-frame1.jpg" width="200px" heigh="175px" alt="cat"></li></div>
+                    <li><div><h3>Video</h3></div></li>
+                    <li><div class= "icon">
+                        <img src="assets/images/video-icon.svg" alt="video icon">
+                    </div>
+                    <div class="description"><p>Description will be placed here.</p></div>
+                    </li>
+                </ul>
+            </div>
+            </a>
+
+            <a href="video-4.html">
+            <div class="video-4">
+                <ul>
+                    <div class=picture><li><img src="assets/images/video-4-frame1.jpg" width="200px" heigh="175px" alt="dog"></li></div>
+                    <li><div><h3>Video</h3></div></li>
+                    <li><div class= "icon">
+                        <img src="assets/images/video-icon.svg" alt="video icon">
+                    </div>
+                    <div class="description"><p>Description will be placed here.</p></div>
+                    </li>
+                </ul>
+            </div>
+            </a>
+
+            <a href="video-5.html">
+            <div class="video-5">
+                <ul>
+                    <div class=picture><li><img src="assets/images/video-5-frame1.jpg" width="200px" heigh="175px" alt="toad"></li></div>
+                    <li><div><h3>Video</h3></div></li>
+                    <li><div class= "icon">
+                        <img src="assets/images/video-icon.svg" alt="video icon">
+                    </div>
+                    <div class="description"><p>Description will be placed here.</p></div>
+                    </li>
+                </ul>
+            </div>
+            </a>
+
+            <a href="video-6.html">
+            <div class="video-6">
+                <ul>
+                    <div class=picture><li><img src="assets/images/video-6-frame1.jpg" width="200px" heigh="175px" alt="goat"></li></div>
+                    <li><div><h3>Video</h3></div></li>
+                    <li><div class= "icon">
+                        <img src="assets/images/video-icon.svg" alt="video icon">
+                    </div>
+                    <div class="description"><p>Description will be placed here.</p></div>
+                    </li>
+                </ul>
+            </div>
+            </a>
+
+
+        </div>
+           
+
+        <style>
+            body{
+   
+    background-color: white;
+}
+.container{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    padding:10px;
+    margin-left:auto;
+    margin-right: auto;
+    
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    align-items: center;
+    border: 3px solid blue;
+    border-radius: 5px;    
+    height:auto;
+}
+
+h1, h2{
+    font-family: "Pixelify Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style:normal;
+    color:gray;  
+}
+
+h3{
+     font-family: "Pixelify Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style:normal;
+    color: blue;  
+}
+
+
+nav{
+    display: grid;
+    padding: 2px;
+    gap:50px;
+    font-family: "Pixelify Sans", sans-serif;
+    font-optical-sizing: auto;
+    
+    font-style: normal;
+    color:gray;    
+}
+
+.nav-link{
+   
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+}
+
+.picture{
+    display: flex;
+    justify-content: center;
+}
+
+.nav-link:hover,
+.nav-link:focus{
+    border-bottom-color: red;
+    outline: none;
+}
+
+a{
+    color:black;
+    text-decoration: none;
+}
+
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 10px;
+    margin-top: 10px;
+    border: 3px solid blue;
+    border-radius: 5px;
+    
+    height:auto;
+   
+}
+
+    .video{
+        background-color: white;
+       
+        object-fit: contain;
+        padding: 10px;
+    }
+    .video-container{
+        display:grid;
+        
+        background-color: white;
+        box-shadow:0 0 5px black;
+        padding: 30px;
+        gap: 10px;
+    }
+
+    ul{
+        list-style: none;
+        margin:0;
+        padding:0;
+    }
+
+
+    li{
+        display:flex;
+        flex-direction: row;
+        align-items: center;
+        gap:2px;
+    }
+
+    .icon{
+        
+        border-radius: 50%;
+        padding: 2px;
+    }
+
+   .video-1, .video-2, .video-3, .video-4, .video-5, .video-6{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: lightgray;
+        
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding: 10px;
+   }
+
+   .video-1:hover, .video-2:hover, .video-3:hover, .video-4:hover, .video-5:hover, .video-6:hover{
+        background:white;
+        box-shadow: 0 0 5px black;
+   }
+
+
+   
+footer{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: white;
+    padding: 10px;
+    margin-top: 10px;
+    border: 3px solid blue;
+    border-radius: 3px;
+    gap: 3px;
+   
+    height:auto;
+}
+
+.info-2{
+    justify-content: end;
+}
+
+.comment-container{
+    width:100%;
+}
+
+.comment-section{
+        
+        box-shadow: 0 0 5px black;
+        width: 100%;
+        padding: 10px;
+        margin-top:10px;
+        margin-bottom:10px;
+    }
+
+   .input{
+        display: flex;
+        flex-direction: row;
+        align-items: baseline;
+    }
+    .avatar{
+        width:20%;
+        padding: 5px;
+    }
+
+    .input{
+        width:75%;
+        height: 50%;
+    }
+
+
+@media (min-width:300px){
+    nav{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .video-container{
+        grid-template-columns: 1fr;
+    }
+    .container{
+        min-width:250px;
+    }
+    .comment-container{
+        min-width:250px;
+    }
+}
+
+@media (min-width:600px){
+    nav{
+        grid-template-columns: repeat(4, 1fr);
+    }
+    .video-container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+     .container{
+        min-width:550px;
+    }
+    .comment-container{
+        min-width:550px;
+    }
+}
+
+@media (min-width:900px){
+    nav{
+        grid-template-columns: repeat(4, 1fr);
+    }
+    .video-container{
+        grid-template-columns: repeat(3, 1fr);
+    }
+     .container{
+        min-width:850px;
+        max-width:850px;
+    }
+    .comment-container{
+        min-width:850px;
+        max-width:850px;
+    }
+}
+
+        </style>

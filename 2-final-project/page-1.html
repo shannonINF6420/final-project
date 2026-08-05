@@ -28,7 +28,6 @@
                             <ul>
                                 <li><a href=>Index</a></li>
                                 <li><a href="home.html">Home</a></li>
-                                <li><a href=>Current</a></li>
                                 <li><a href="archives.html">Archives</a></li>
                                 <li><a href="contact.html">Contact</a></li>
                             </ul>
@@ -54,21 +53,27 @@
 
 
                         <div class="pages">
-                            <div class= "first-page"><a href="">
+                            <ul>
+                           <li><div class= "first"><a href="page-1.html">
                                 <img src="">
-                            </a></div>
+                                <p>First</p>
+                            </a></div></li>
 
-                            <div class="last-page"><a href="">
+                            <li><div class="previous"><a href="">
                                 <img src="">
-                            </a></div>
+                                <p>Previous</p>
+                            </a></div></li>
 
-                            <div class="next-page"><a href="">
+                            <li><div class="next"><a href="">
                                 <img src="">
-                            </a></div>
+                                <p>Next</p>
+                            </a></div></li>
 
-                            <div class="current-page"><a href="">
+                            <li><div class="current"><a href="">
                                 <img src="">
-                            </a></div>                         
+                                <p>Current</p>
+                            </a></div></li>
+                            </ul>                        
                         </div>
                                    
                     </main>
@@ -105,6 +110,27 @@
                 color:transparent;
             }
 
+            .first, .previous, .next, .current{
+                display: flex;
+                align-items: center;
+                align-content: center;
+                align-self: center;
+                background-image: url("https://64.media.tumblr.com/c3d1a377c89ac5ec6208afa54f8b2041/fa7ef03b77b9c4ed-97/s100x200/b6713cc66ef8521cb3197f6885d68e151a97dcd0.jpg");
+                background-repeat: no-repeat; 
+                background-position: center; 
+                background-size: cover;
+                gap:10px;
+                
+
+            }
+        
+            .pages{
+                display:flex;
+                flex-direction: row;
+                gap:10px;
+               
+              
+            }
             
         </style>
         
@@ -117,3 +143,11 @@
 
 </lang>
 </html>
+
+
+
+➜
+➤
+
+꩜ ꩜ ꩜ 
+first previous next current

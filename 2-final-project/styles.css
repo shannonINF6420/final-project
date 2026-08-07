@@ -1,43 +1,94 @@
 
+
+
+body{
+    background-image: url(assets/images/mist.jpg);
+
+    
+}
+
 .container{
     display: grid;
     justify-content: center;
     padding: 10px;
-    border: 1px solid red;
+   
 }
 
 header{
     display:flex;
     flex-direction: column;
     align-content: center;
-    border: 1px solid blue;
+   
     padding: 10px;
     margin-bottom:30px;
     width:100%;
     height: auto;
-
+    
    
 }
 
-.banner{
-    
+.banner{  
+  
     margin-bottom:3px;
-    background-image: url(assets/images/forest-rescaled.JPG);
-    
+    background-image: url(assets/images/forest-rescaled.JPG); 
+    object-position: center;
 }
 
+h1{
+    color: white;
+    
+    
+  font-family: "Rubik Iso", system-ui;
+  font-weight: 400;
+  font-style: normal;
+ 
+}
+
+h2{
+    font-family: "Bitcount Prop Single", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0,
+    "CRSV" 0.5,
+    "ELSH" 0,
+    "ELXP" 0;
+}
+
+
+
 nav{    
-    border: 1px solid green;
+    
+    width:100%;
+    height: 50px;
+    background-color: rgb(161, 194, 209);
+}
+
+
+
+a{
+    color: white;
+    font-family: "Bitcount Prop Single", system-ui;
+  font-optical-sizing: auto;
+  font-weight:300;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0,
+    "CRSV" 0.5,
+    "ELSH" 0,
+    "ELXP" 0;
+    
 }
 
 ul{
     display: grid;
-    justify-content: center;
+    justify-content: space-between;
     list-style: none;    
 }
 
 main{
-    border: 1px solid blue;
+    
     padding: 10px;
     margin-bottom:3px;
     width:100%;
@@ -46,7 +97,7 @@ main{
 
 .main-container{
     
-    border: 3px solid purple;
+    
     width: auto;
     height: auto;
     padding: 10px;
@@ -54,11 +105,23 @@ main{
 }
 
 .content{
-    border: 1px solid green;
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    height: auto;
+   
     margin-left:10px;
     margin-right:10px;
     padding: 10px;
     background-color: white;
+    
+    
+}
+
+@media (min-width: "600px"){
+    .content{
+        background-image: url(assets/images/board-copy-nobackground.png);
+    }
 }
 
 .handheld{
@@ -71,13 +134,13 @@ main{
 }
 
 .handheld-exit{ 
-    border: 1px solid purple;
+    
     margin: 30px;
     
 }
 
 .handheld-archives{
-    border: 1px solid purple;
+    
     margin:30px;
 }
 
@@ -86,9 +149,10 @@ footer{
     display:flex;
     flex-direction: column;
     align-content: center;
-    border: 1px solid blue;
+    
     padding: 10px;
     margin-bottom:30px;
+     background-color: rgb(161, 194, 209);
     
    
 }
@@ -223,3 +287,7 @@ footer{
 
     
 }
+
+
+
+

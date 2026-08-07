@@ -8,6 +8,12 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bitcount+Prop+Single:wght@100..900&family=Funnel+Display:wght@300..800&family=Rubik+Iso&display=swap" rel="stylesheet">
+
+
+
 
 
     
@@ -21,15 +27,14 @@
                     <header>
                         
                         <div class="banner">
-                            <h1>banner</h1>
+                            <h1>꩜Mists of Lethe</h1>
                             <div class="banner-image"><img src=""></div>
                         </div>
                         <nav>
                             <ul>
                                 <li><a href=>Index</a></li>
-                                <li><a href=>Home</a></li>
-                                <li><a href=>Current</a></li>
-                                <li><a href=>Archives</a></li>
+                                <li><a href="home.html">Home</a></li>
+                                <li><a href="archives.html">Archives</a></li>
                                 <li><a href="contact.html">Contact</a></li>
                             </ul>
                         </nav>
@@ -40,53 +45,54 @@
                     <main>
                         <div class="main-container">
                             <div class=left>
-                                <p>.</p>
+                                <p>Exit</p>
                             </div>
                             <div class=content>
-                                <h2>To Do</h2>
-                                <p><em>This site is currently under construction!</em></p>
-                                <ol>
-                                    <li>archives</li>
-                                    <li>pages (page 1, 2 ,3, etc.)</li>
-                                    <li>entry page</li>
-                                    <li>responsiveness</li>
-                                </ol>
+                                
                             </div>
                             <div class=right>
-                                <p>. </p>
+                                <p>Archives</p>
                             </div>
                         </div>
 
+
+
+
                         <div class="pages">
-                        <div class= "first-page"><a href="">
-                            <img src="">
-                        </a></div>
+                            <ul>
+                           <li><div class= "first"><a href="page-1.html">
+                                <img src="">
+                                <p>First</p>
+                            </a></div></li>
 
-                        <div class="last-page"><a href="">
-                            <img src="">
-                        </a></div>
+                            <li><div class="previous"><a href="">
+                                <img src="">
+                                <p>Previous</p>
+                            </a></div></li>
 
-                        <div class="next-page"><a href="">
-                            <img src="">
-                        </a></div>
+                            <li><div class="next"><a href="">
+                                <img src="">
+                                <p>Next</p>
+                            </a></div></li>
 
-                        <div class="current-page"><a href="">
-                            <img src="">
-                        </a></div>
-                                                    
+                            <li><div class="current"><a href="">
+                                <img src="">
+                                <p>Current</p>
+                            </a></div></li>
+                            </ul>                        
                         </div>
-                    </div>
 
-                   
-
-                
-            
-                </main>
-
-                <footer>
-                        <p>footer</p>
-                </footer>
+                    
+                                   
+                    </main>
+                    
+                    <footer>
+                        <p> 𖣠 Shannon N. Noah</p>
+                    </footer>
                 </div>
+                
+                
+               
 
             </div>
 
@@ -94,10 +100,53 @@
         </body>
 
         <style>
-            .pages{
-                border: 1px solid green;
+            .content{
+                background-image: url();
+                object-fit: contain;
+                min-width:300px;
+                min-height: 440px;
+
+                background-image: url(assets/images/Page1.jpg);
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: contain;
+            }
+
+            .main-container{
+                padding: 50px;
+                gap:20px;
+            }
+
+            .left{
+                color:transparent;
+            }
+            .right{
+                color:transparent;
+            }
+
+            .first, .previous, .next, .current{
+                display: none;
+                flex-direction: row;
+                align-items: center;
+             
+                
+                background-image: url("https://64.media.tumblr.com/c3d1a377c89ac5ec6208afa54f8b2041/fa7ef03b77b9c4ed-97/s100x200/b6713cc66ef8521cb3197f6885d68e151a97dcd0.jpg");
+                background-repeat: no-repeat; 
+                background-position: center; 
+                background-size: cover;
+                gap:10px;
+                
 
             }
+        
+            .pages{
+                display:flex;
+                flex-direction: row;
+                gap:10px;
+               
+              
+            }
+            
         </style>
         
 
@@ -109,3 +158,6 @@
 
 </lang>
 </html>
+
+
+
